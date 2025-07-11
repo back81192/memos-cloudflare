@@ -1,0 +1,30 @@
+name = "memos-cloudflare"
+main = "src/index.ts"
+compatibility_date = "2024-06-01"
+
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+LOG_LEVEL = "info"
+BASE_URL = "https://your-worker-name.your-subdomain.workers.dev"
+
+# Secrets - set via wrangler secret put
+# JWT_SECRET
+# ALLOWED_ORIGINS  
+# R2_ACCESS_KEY_ID
+# R2_SECRET_ACCESS_KEY
+
+[[d1_databases]]
+binding = "DB"
+database_name = "memos"
+database_id = "YOUR_D1_DATABASE_ID"
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "memos-assets"
+
+[env.staging]
+name = "memos-cloudflare-staging"
+
+[env.production]
+name = "memos-cloudflare-production" 
