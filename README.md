@@ -203,3 +203,16 @@ pnpm dev
 - [Cloudflare Workers 文档](https://developers.cloudflare.com/workers/)
 - [Cloudflare D1 文档](https://developers.cloudflare.com/d1/)
 - [Cloudflare Pages 文档](https://developers.cloudflare.com/pages/) 
+## 📖 关于项目来源
+
+本项目基于 [vividmuse/memos-cloudflare](https://github.com/vividmuse/memos-cloudflare) 的早期版本进行开发。
+
+由于原项目处于不活跃维护状态，且存在一些功能限制和技术问题，我们在其基础上进行了：
+- 🔧 大量错误修复和稳定性改进
+- ⚡ 核心功能重写和性能优化  
+- 🆕 新功能开发和用户体验提升
+- 📚 完善的文档和部署指南
+
+本项目现已作为独立项目维护，致力于提供稳定可靠的 Memos Cloudflare 部署方案。
+
+感谢原作者 [@vividmuse](https://github.com/vividmuse) 提供的初始框架和灵感。
