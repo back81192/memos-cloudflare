@@ -16,8 +16,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/Allhuo/memos_cloudflare.git
-cd memos_cloudflare
+git clone https://github.com/Allhuo/memos-cloudflare.git
+cd memos-cloudflare
 ```
 
 ### 2. 后端部署
